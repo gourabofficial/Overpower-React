@@ -2,7 +2,7 @@ function TodoInput() {
   return(
 
   <div class="container text-center">
-    <div class="row">
+    <div class="row myrow">
       <div class="col-6">
         <input type="text" placeholder="Enter your todo" />
       </div>

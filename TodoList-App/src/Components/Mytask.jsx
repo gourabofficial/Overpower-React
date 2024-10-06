@@ -1,7 +1,7 @@
 function Mytask() {
   return (
     <div class="container text-center">
-      <div class="row">
+      <div class="row myrow">
         <div class="col-6">Sleeping 7 hours</div>
         <div class="col-4">10/10/2024</div>
         <div class="col-2">
