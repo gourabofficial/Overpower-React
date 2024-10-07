@@ -10,7 +10,7 @@ function TodoInput() {
         <input type="date" />
       </div>
       <div class="col-2">
-        <button type="button" class="btn btn-primary">
+        <button type="button" class="btn btn-primary my-btn">
           Add
         </button>
       </div>
