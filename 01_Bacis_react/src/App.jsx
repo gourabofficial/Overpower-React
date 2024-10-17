@@ -1,15 +1,13 @@
-import React from "react"
-
+import React, { useState } from "react";
+import Product from "./Product";
 function App() {
-
+  
   return (
-    <div className='p-4 w-full h-screen bg-zinc-700 text-white '>
-      <div className= " p-4 bg-red-500 w-44 h-32 rounded-xl text-black">
-      <h1>Learning Basic React</h1>
-
+    <>
+      <div className="w-full h-screen bg-zinc-900 text-white p-5">
+        <Product  data={{name:"Gourab Ganaguly",age:20, coder: 'coder: yes'} } />
       </div>
-    </div>
-  )
+      </>
+  );
 }
-
-export default App
+export default App;
