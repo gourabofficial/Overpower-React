@@ -60,7 +60,7 @@ export default function Contact() {
                                   />
                               </svg>
                               <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                                  916294692462
+                                  916294600000
                               </div>
                           </div>
 

@@ -3,8 +3,8 @@ import { Link, NavLink } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <footer className="bg-white border-y ">
-      <div className=" mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+    <footer className="bg-white border-y  ">
+      <div className=" flex justify mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <Link to="/" className="flex items-center">
@@ -79,6 +79,7 @@ export default function Footer() {
               Google
             </a>
             . All Rights Reserved.
+            
           </span>
           <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
             <Link to="#" className="text-gray-500 hover:text-gray-900">
@@ -95,7 +96,7 @@ export default function Footer() {
                   clip-rule="evenodd"
                 />
               </svg>
-              <span className="sr-only">Facebook page</span>
+              <span className="sr-only  ">Facebook page</span>
             </Link>
             <Link to="#" className="text-gray-500">
               <svg
