@@ -34,7 +34,7 @@ export default function Home() {
           <img
             className="rounded-full sm:w-96 w-64 transition-transform 
             duration-200 ease-in-out transform hover:scale-105 shadow-lg"
-            src="src/Assets/profile.jpg"
+            src="/assets/profile.jpg"
             alt="image1"
           />
         </div>
