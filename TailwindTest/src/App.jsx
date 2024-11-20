@@ -7,9 +7,11 @@ function App() {
 
   return (
     <>
-      <h1 className='bg-green-400 text-black p-4 rounded-xl mb-6'  >Cristiano Ronaldo </h1>
-      <Card name = "Gourab Ganguly" />
-      <Card name = "Budhadev Koner" />
+      <Card  name={"Gourab Ganguly"} age={21}/>
+      <Card name={"Budhadev Koner"} />
+      <Card name={"Rahul Bro"}  age={22}/>
+      <Card name={"Bebesh mondal"} age={19} />
+      <Card name={"dev "} age={25}/>
     </>
   )
 }
