@@ -1,11 +1,11 @@
 function Mainpage() {
   return (
     <>
-      <form className="flex flex-row items-center justify-center h-screen">
+      <form className=" bg-slate-300 flex flex-row items-center justify-center h-screen rounded-md ">
         <input
           type="text"
           placeholder="Enter your task"
-          className="border border-gray-300 rounded-md p-2 mr-4 w-64"
+          className="border border-gray-300 rounded-md p-2 mr-4 w-64 "
         />
         <button
           type="submit"
