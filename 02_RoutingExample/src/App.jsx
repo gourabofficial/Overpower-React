@@ -5,6 +5,8 @@ import { Portfolio } from './Components/Portfolio'
 import { Navbar } from './Components/Navbar';
 import { Instagram } from './Components/Instagram';
 import { About } from './Components/About';
+import { Team } from './Components/Team';
+import { Company } from './Components/Company';
 
 
 
@@ -30,14 +32,28 @@ const router = createBrowserRouter([
       <Navbar />
       <Instagram />
     </div>
-  },{
+  },
+  {
     path: '/About',
     element: <div>
       <Navbar />
       <About />
-    </div>
-  }
-   
+    </div>,
+
+
+    children: [{
+      path: 'team',
+      element: <Team />
+    },
+      {
+        path: 'company',
+        element: <Company />
+      }
+      
+    ]
+    
+  },
+  
 ]);
 
 function App() {
