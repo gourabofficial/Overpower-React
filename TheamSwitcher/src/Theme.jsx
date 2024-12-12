@@ -1,21 +1,16 @@
-import React from 'react'
-import { createContext } from 'react'
-import Button from './Button';
+import React, { createContext, useState } from "react";
 
 const ThemeContext = createContext();
 
-function Theme() {
+function Theme({ children }) {
+  const [theme, setTheme] = useState("light");
 
-  const [theme,setTheme] = useState('light')
   return (
-    <div>
-      <ThemeContext.Provider value={{theme,setTheme}}>
-        <Button />
-        </ThemeContext.Provider>
-
-    </div>
-  )
+    <ThemeContext.Provider value={{ theme, setTheme }}>
+      {children}
+    </ThemeContext.Provider>
+  );
 }
 
-export default Theme
-export {ThemeContext}
+export default Theme;
+export { ThemeContext };
